@@ -11,7 +11,7 @@
 <body>
 
     <div id="app">
-        <ul>
+        <ul v-if="arrayEmail.length == 10">
             <li v-for="mail in arrayEmail">{{mail}}</li>
         </ul>
     </div>
